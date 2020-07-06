@@ -1,6 +1,7 @@
 ﻿#define SimpleFactoryPattern
 #define ReflectFactoryPattern
 #define FactoryMethodPattern
+#define AbstractFactoryPattern
 
 using System;
 using DesignPattern.CreationalPattern;
@@ -34,6 +35,17 @@ namespace DesignPattern
                 iFactoryMethodBase fac = new ConcreateFactoryA();
                 product = fac.createProduct();
                 product.methodDiff();
+#endif
+
+#if AbstractFactoryPattern
+                Console.WriteLine("\nAbstractFactoryPattern!");
+                BMWFactory bmw = new BMWFactory();
+                bmw.createCar().getInfo();
+                bmw.createBus().getInfo();
+
+                BYDFactory byd = new BYDFactory();
+                byd.createCar().getInfo();
+                byd.createBus().getInfo();
 #endif
 
             }
