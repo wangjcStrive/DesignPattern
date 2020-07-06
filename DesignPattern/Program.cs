@@ -1,8 +1,10 @@
-﻿#define SimpleFactory
+﻿#define SimpleFactoryPattern
+#define ReflectFactoryPattern
+#define FactoryMethodPattern
 
 using System;
 using DesignPattern.CreationalPattern;
-
+using DesignPattern.CreationalPattern.Factory;
 
 namespace DesignPattern
 {
@@ -12,11 +14,25 @@ namespace DesignPattern
         {
             try
             {
-#if SimpleFactory
                 Product product;
-                product = SimpleFactory.getProduct("A");
+#if SimpleFactoryPattern
+                Console.WriteLine("SimpleFactoryPattern!");
+                product = SimpleFactory.getProduct(ProductEnum.a_product);
                 product.methodDiff();
-                product = SimpleFactory.getProduct("C");
+                product = SimpleFactory.getProduct(ProductEnum.b_product);
+                product.methodDiff();
+#endif
+
+#if ReflectFactoryPattern
+                Console.WriteLine("\nReflectFactoryPattern!");
+                product = ReflectFactory.getProduct("DesignPattern.CreationalPattern.Factory.ConcreteProductA");
+                product.methodDiff();
+#endif
+
+#if FactoryMethodPattern
+                Console.WriteLine("\nFactoryMethodPattern!");
+                iFactoryMethodBase fac = new ConcreateFactoryA();
+                product = fac.createProduct();
                 product.methodDiff();
 #endif
 

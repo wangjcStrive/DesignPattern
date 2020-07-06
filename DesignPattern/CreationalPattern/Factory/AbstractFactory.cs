@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPattern.CreationalPattern
+namespace DesignPattern.CreationalPattern.Factory
 {
-    class FactoryMethodPattern
+    class AbstractFactory
     {
     }
 }
