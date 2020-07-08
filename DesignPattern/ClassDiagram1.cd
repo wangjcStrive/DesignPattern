@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPattern.CreationalPattern.ConcreateFactoryA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\FactoryMethodPattern.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.ConcreateFactoryB" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\FactoryMethodPattern.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Computer" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAgBA=</HashCode>
+      <FileName>CreationalPattern\BuilderPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Builder" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\BuilderPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.HPBuilder" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAAAAAAAAAAAAAAAAAAgQAACAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\BuilderPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.DELLBuilder" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAAAAAAAAAAAAAAAAAAgQAACAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\BuilderPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Director" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\BuilderPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.SingletonHungry" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\SingletonHungry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.SingletonLazy" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\SingletonLazy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.SingletonLock" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\SingletonLock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.AbstractBus" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.BMWBus" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.BYDBus" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.AbstractCar" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.BMWCar" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.BYDCar" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.BMWFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.BYDFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.Product" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.ConcreteProductA" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.ConcreteProductB" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.ReflectFactory" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>CreationalPattern\Factory\ReflectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattern.CreationalPattern.Factory.SimpleFactory" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>CreationalPattern\Factory\SampleFactoryPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPattern.CreationalPattern.iFactoryMethodBase" Collapsed="true">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\FactoryMethodPattern.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPattern.CreationalPattern.Factory.IAbstractFactory" Collapsed="true">
+    <Position X="16.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DesignPattern.CreationalPattern.Factory.ProductEnum" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CreationalPattern\Factory\Product.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

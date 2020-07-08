@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="BehavioralPattern\" />
     <Folder Include="ConcurrencyPattern\" />
-    <Folder Include="StructuralPattern\" />
   </ItemGroup>
 
 </Project>

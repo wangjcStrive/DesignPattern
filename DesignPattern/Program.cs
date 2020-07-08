@@ -1,11 +1,14 @@
-﻿#define SimpleFactoryPattern
-#define ReflectFactoryPattern
-#define FactoryMethodPattern
-#define AbstractFactoryPattern
+﻿//#define SimpleFactoryPattern
+//#define ReflectFactoryPattern
+//#define FactoryMethodPattern
+//#define AbstractFactoryPattern
+//#define BuilderPattern
+#define AdapterPattern
 
 using System;
 using DesignPattern.CreationalPattern;
 using DesignPattern.CreationalPattern.Factory;
+using DesignPattern.StructuralPattern;
 
 namespace DesignPattern
 {
@@ -46,6 +49,29 @@ namespace DesignPattern
                 BYDFactory byd = new BYDFactory();
                 byd.createCar().getInfo();
                 byd.createBus().getInfo();
+#endif
+#if BuilderPattern
+                Director director = new Director();
+                HPBuilder hpBuilder = new HPBuilder();
+                DELLBuilder dellBuilder = new DELLBuilder();
+
+                //组装HP PC
+                Computer hpPC = director.Construct(hpBuilder);
+                hpPC.showSteps();
+                //组装DELL PC
+                Computer dellPC = director.Construct(dellBuilder);
+                dellPC.showSteps();
+#endif
+#if AdapterPattern
+                AudioPlayer player = new AudioPlayer();
+                player.play(AudioTypeEnum.MP3, "aaa");
+                player.play(AudioTypeEnum.MP4, "bbb");
+                player.play(AudioTypeEnum.VLC, "ccc");
+
+                Console.WriteLine();
+                ClassPatternAudioPlayer classPatternPlayer = new ClassPatternAudioPlayer();
+                classPatternPlayer.play(AudioTypeEnum.MP3, "ddd");
+                classPatternPlayer.play(AudioTypeEnum.MP4, "eee");
 #endif
 
             }

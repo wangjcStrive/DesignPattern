@@ -35,6 +35,9 @@ namespace DesignPattern.CreationalPattern.Factory
         }
     }
 
+    /// <summary>
+    /// 比亚迪工厂
+    /// </summary>
     public class BYDFactory : IAbstractFactory
     {
         public AbstractBus createBus()
