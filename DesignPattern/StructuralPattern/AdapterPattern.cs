@@ -65,7 +65,7 @@ namespace DesignPattern.StructuralPattern
     {
         IAdvanceMediaPlayer m_advancePlayer;
 
-        public MediaAdapter( AudioTypeEnum audioType)
+        public MediaAdapter(AudioTypeEnum audioType)
         {
             if (audioType == AudioTypeEnum.MP4)
                 m_advancePlayer = new MP4Player();
@@ -108,7 +108,7 @@ namespace DesignPattern.StructuralPattern
         {
             if (audioType == AudioTypeEnum.MP3)
                 Console.WriteLine($"playing mp3: {fileName}");
-            else if(audioType == AudioTypeEnum.MP4 || audioType == AudioTypeEnum.VLC)
+            else if (audioType == AudioTypeEnum.MP4 || audioType == AudioTypeEnum.VLC)
             {
                 //通过adapter调用，所以adapter里需要实现advance的功能
                 m_mediaAdapter = new MediaAdapter(audioType);
@@ -121,7 +121,6 @@ namespace DesignPattern.StructuralPattern
         }
     }
     #endregion
-
 
     /// <summary>
     /// 自己实现的类适配器模式，可能不是很好。感觉还是对象型的适配器好一点
