@@ -3,7 +3,8 @@
 //#define FactoryMethodPattern
 //#define AbstractFactoryPattern
 //#define BuilderPattern
-#define AdapterPattern
+//#define AdapterPattern
+#define BridgePattern
 
 using System;
 using DesignPattern.CreationalPattern;
@@ -72,6 +73,17 @@ namespace DesignPattern
                 ClassPatternAudioPlayer classPatternPlayer = new ClassPatternAudioPlayer();
                 classPatternPlayer.play(AudioTypeEnum.MP3, "ddd");
                 classPatternPlayer.play(AudioTypeEnum.MP4, "eee");
+#endif
+
+#if BridgePattern
+                Shape redCircle = new Circle(1, 1, 1, new RedDraw());
+                redCircle.draw();
+                Shape redRectangle = new Rectangle(2, 2, 2, 2, new RedDraw());
+                redRectangle.draw();
+                Shape greenCircle = new Circle(3, 3, 3, new GreedDraw());
+                greenCircle.draw();
+                Shape greenRectangle = new Rectangle(4, 4, 4, 4, new GreedDraw());
+                greenRectangle.draw();
 #endif
 
             }
