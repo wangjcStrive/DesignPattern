@@ -4,7 +4,8 @@
 //#define AbstractFactoryPattern
 //#define BuilderPattern
 //#define AdapterPattern
-#define BridgePattern
+//#define BridgePattern
+#define DecoratorPattern
 
 using System;
 using DesignPattern.CreationalPattern;
@@ -85,7 +86,18 @@ namespace DesignPattern
                 Shape greenRectangle = new Rectangle(4, 4, 4, 4, new GreedDraw());
                 greenRectangle.draw();
 #endif
+#if DecoratorPattern
+                IShape circle = new CircleA();
+                ShapeDecorator redCircle = new RedShapeDecorator(new CircleA());
+                ShapeDecorator redRectangle = new RedShapeDecorator(new RectangleA());
 
+                circle.draw();
+                redCircle.draw();
+                redRectangle.draw();
+                //新的类仍然具有zoom的功能
+                redRectangle.zoom();
+
+#endif
             }
             catch (Exception e)
             {

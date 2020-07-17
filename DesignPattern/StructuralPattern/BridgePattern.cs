@@ -9,7 +9,7 @@ namespace DesignPattern.StructuralPattern
     /// 系统可能有多个角度分类，每种角度都可能发生变化，把这多种角度分离出来让他们独立变化，减少他们之间的耦合。
     /// 用组合关系替代继承关系，把两个不同维度的东西桥接起来。
     /// https://www.runoob.com/design-pattern/bridge-pattern.html
-    /// 1. 添加新的形状，或新的颜色需要修改的地方
+    /// 在这里shape是一个抽象类，而colorDraw是一个接口。理解为shape是主体，而color是一个feature。
     ///     
     /// </summary>
     public interface IColorDrawAPI
